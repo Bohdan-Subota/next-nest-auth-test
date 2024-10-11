@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+
+:root {
+  --background: 245, 245, 245;
+  --copy-primary: 23, 23, 23;
+  --cta: 139, 92, 246;
+  --border: 212, 212, 212;
+  --card: 255, 255, 255;
+}
+
+.dark {
+  --background: 23, 23, 23;
+  --copy-primary: 245, 245, 245;
+  --cta: 124, 58, 237;
+  --border: 80, 80, 80;
+  --card: 30, 30, 30;
+}
